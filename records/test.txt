@@ -1,0 +1,15 @@
+01:17:44.786273 24:f0:94:45:02:42 > ff:ff:ff:ff:ff:ff, ethertype IPv4 (0x0800), length 342: (tos 0x0, ttl 255, id 49011, offset 0, flags
+      [none], proto UDP (17), length 328)
+     0.0.0.0.68 > 255.255.255.255.67: [udp sum ok] BOOTP/DHCP, Request from 24:f0:94:45:02:42, length 300, xid 0xe8a5712a, Flags [none] (0x0000)
+           Client-Ethernet-Address 24:f0:94:45:02:42
+           Vendor-rfc1048 Extensions
+             Magic Cookie 0x63825363
+             DHCP-Message Option 53, length 1: Request
+             Parameter-Request Option 55, length 7:
+               Subnet-Mask, Classless-Static-Route, Default-Gateway, Domain-Name-Server
+               Domain-Name, Option 119, Option 252
+             MSZ Option 57, length 2: 1500
+             Client-ID Option 61, length 7: ether 24:f0:94:45:02:42
+             Requested-IP Option 50, length 4: 192.168.10.10
+             Lease-Time Option 51, length 4: 7776000
+             Hostname Option 12, length 13: "Alices-iPhone"    
